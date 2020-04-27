@@ -7,9 +7,9 @@ from time import sleep
 
 def main():
     with SSHTunnelForwarder(
-    ('10.0.0.10'), 
+    ('40.121.95.225'), 
     ssh_username="testuser",
-    ssh_password="testuser@123",
+    ssh_password="Windows@1234",
     local_bind_address=('127.0.0.1', 27017),
     remote_bind_address=('127.0.0.1', 27017)) as server:
         print(server.local_bind_port)
