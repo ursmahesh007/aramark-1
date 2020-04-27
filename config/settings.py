@@ -102,8 +102,8 @@ DATABASES = {
         'ENFORCE_SCHEMA': False,
         'HOST':"127.0.0.1",
         # 'PORT':
-        'USER': 'admin',
-        'PASSWORD': 'admin123',
+#         'USER': 'admin',
+#         'PASSWORD': 'admin123',
     }
 }
 
