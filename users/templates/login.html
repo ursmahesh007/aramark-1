@@ -1,0 +1,13 @@
+{% load crispy_forms_tags %}
+
+<form class="myclass" action="" method="post">
+{% csrf_token %}
+
+
+{{ form|crispy }}
+
+
+<button type="submit"><strong>submit</strong></button>
+</form>
+
+Register? <a class="ml-2" href="{% url 'register' %}">click here</a>

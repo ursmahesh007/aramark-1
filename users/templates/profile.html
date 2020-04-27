@@ -1,0 +1,20 @@
+
+Hi {{username}}<br>
+
+Profile Details <br>
+id: {{id}}<br>
+username: {{username}}<br>
+email: {{email}}<br>
+first_name: {{first_name}}<br>
+last_name: {{last_name}}<br>
+age: {{age}}<br>
+gender: {{gender}}<br>
+height: {{height}}<br>
+weight: {{weight}}<br>
+activity: {{activity}}<br>
+allergic_food: {{allergic_food}}<br>
+
+<br>
+<a href="{% url 'update' %}">click here to update profile</a>
+<br><br><br>
+<a class="ml-2" href="{% url 'logout' %}">log out</a>
